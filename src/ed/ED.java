@@ -19,5 +19,6 @@ public class ED extends HttpServlet {
         throws IOException, ServletException {
         RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
         dispatcher.forward(request, response);
+
     }
 }
